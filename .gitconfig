@@ -135,6 +135,8 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+	# don't fast-forward merges
+	ff = false
 
 [push]
 

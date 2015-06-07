@@ -254,3 +254,9 @@ function o() {
 function tre() {
 	tree -aC -I '.git|node_modules|bower_components' --dirsfirst "$@" | less -FRNX;
 }
+
+
+# from http://hackercodex.com/guide/python-development-environment-on-mac-osx/
+function gpip(){
+   PIP_REQUIRE_VIRTUALENV="" pip "$@"
+}

@@ -100,5 +100,60 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 
+
+# add some of mpk's stuff
+brew install heroku-toolbelt
+brew install node
+brew install awscli
+
+# add some cask too
+brew install caskroom/cask/brew-cask
+
+brew cask install dropbox
+
+brew cask install 1password
+
+brew cask install google-chrome
+brew cask install google-drive
+brew cask install firefox
+brew cask install adium
+brew cask install textmate
+brew cask install sublime-text
+brew cask install microsoft-office
+brew cask install java
+brew cask install spotify
+brew cask install macdown
+brew cask install webstorm
+brew cask install expandrive
+brew cask install daisydisk
+brew cask install sourcetree
+brew cask install flux
+brew cask install omnigraffle
+brew cask install iterm2
+brew cask install xamarin-studio
+brew cask install maddthesane-perian
+brew cask install cheatsheet
+brew cask install reggy
+brew cask install spectacle
+brew cask install transmission
+
+
+# quicklook plugins from http://sourabhbajaj.com/mac-setup/Homebrew/Cask.html
+brew cask install qlcolorcode
+brew cask install qlstephen
+brew cask install qlmarkdown
+brew cask install quicklook-json
+brew cask install qlprettypatch
+brew cask install quicklook-csv
+brew cask install betterzipql
+brew cask install webpquicklook
+brew cask install suspicious-package
+
+brew install python
+brew install python3
+pip install virtualenv
+
+
+
 # Remove outdated versions from the cellar.
 brew cleanup

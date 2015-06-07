@@ -151,7 +151,9 @@ brew cask install suspicious-package
 
 brew install python
 brew install python3
-pip install virtualenv
+# the following requires gpip in the .functions file
+gpip install --upgrade pip
+gpip install virtualenv
 
 
 

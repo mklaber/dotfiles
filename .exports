@@ -1,5 +1,5 @@
 # Make vim the default editor.
-export EDITOR='vim';
+export EDITOR='/usr/local/bin/mate -w';
 
 # Enable persistent REPL history for `node`.
 NODE_REPL_HISTORY_FILE=~/.node_history;
@@ -29,5 +29,3 @@ export GREP_OPTIONS='--color=auto';
 # some python stuff
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
-# cache pip-installed packages to avoid re-downloading
-export PIP_DOWNLOAD_CACHE=$HOME/.pip/cache

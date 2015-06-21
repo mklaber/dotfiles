@@ -100,6 +100,7 @@ brew install tree
 brew install webkit2png
 brew install zopfli
 
+brew install libav
 
 # add some of mpk's stuff
 brew install heroku-toolbelt
@@ -136,6 +137,7 @@ brew cask install cheatsheet
 brew cask install reggy
 brew cask install spectacle
 brew cask install transmission
+brew cask install vlc
 
 
 # quicklook plugins from http://sourabhbajaj.com/mac-setup/Homebrew/Cask.html

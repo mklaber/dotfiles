@@ -101,6 +101,7 @@ brew install webkit2png
 brew install zopfli
 
 brew install libav
+brew install ffmpeg
 
 # add some of mpk's stuff
 brew install heroku-toolbelt
@@ -138,6 +139,9 @@ brew cask install reggy
 brew cask install spectacle
 brew cask install transmission
 brew cask install vlc
+brew cask install handbrake
+brew cask install mplayerx
+brew cask install silverlight
 
 
 # quicklook plugins from http://sourabhbajaj.com/mac-setup/Homebrew/Cask.html

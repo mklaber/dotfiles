@@ -1,10 +1,10 @@
-# Make vim the default editor.
+# Make textmate the default editor.
 export EDITOR='/usr/local/bin/mate -w';
 
 # Enable persistent REPL history for `node`.
-NODE_REPL_HISTORY_FILE=~/.node_history;
+export NODE_REPL_HISTORY_FILE=~/.node_history;
 # Allow 32³ entries; the default is 1000.
-NODE_REPL_HISTORY_SIZE='32768';
+export NODE_REPL_HISTORY_SIZE='32768';
 
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
@@ -29,3 +29,7 @@ export GREP_OPTIONS='--color=auto';
 # some python stuff
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
+
+
+# make sure cask puts things in the real Applications directory
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"

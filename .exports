@@ -1,10 +1,17 @@
-# Make textmate the default editor.
-export EDITOR='/usr/local/bin/mate -w';
+#!/usr/bin/env bash
+
+# Make VS Code the default editor.
+export EDITOR='/usr/local/bin/code --wait';
 
 # Enable persistent REPL history for `node`.
-export NODE_REPL_HISTORY_FILE=~/.node_history;
+export NODE_REPL_HISTORY=~/.node_history;
 # Allow 32³ entries; the default is 1000.
 export NODE_REPL_HISTORY_SIZE='32768';
+# Use sloppy mode by default, matching web browsers.
+export NODE_REPL_MODE='sloppy';
+
+# Make Python use UTF-8 encoding for output to stdin, stdout, and stderr.
+export PYTHONIOENCODING='UTF-8';
 
 # Increase Bash history size. Allow 32³ entries; the default is 500.
 export HISTSIZE='32768';
@@ -25,11 +32,14 @@ export MANPAGER='less -X';
 # Always enable colored `grep` output.
 export GREP_OPTIONS='--color=auto';
 
-
 # some python stuff
 # pip should only run if there is a virtualenv currently activated
 export PIP_REQUIRE_VIRTUALENV=true
 
-
 # make sure cask puts things in the real Applications directory
 export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
+# Avoid issues with `gpg` as installed via Homebrew.
+# https://stackoverflow.com/a/42265848/96656
+export GPG_TTY=$(tty);
+
